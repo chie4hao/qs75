@@ -753,17 +753,6 @@ Text GLabel 2700 8150 0    50   Input ~ 0
 ROW3
 Text GLabel 2700 8775 0    50   Input ~ 0
 ROW4
-$Comp
-L Diode:1N4148 D1
-U 1 1 5D7464A5
-P 2900 6125
-F 0 "D1" V 2946 6046 50  0000 R CNN
-F 1 "1N4148" V 2855 6046 50  0000 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 2900 5950 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2900 6125 50  0001 C CNN
-	1    2900 6125
-	0    -1   -1   0   
-$EndComp
 Text GLabel 3300 9000 3    50   Input ~ 0
 COL0
 $Comp
@@ -786,7 +775,7 @@ F 1 "1N4148" V 3405 6046 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 3450 5950 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3450 6125 50  0001 C CNN
 	1    3450 6125
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW3
@@ -808,7 +797,7 @@ F 1 "1N4148" V 3955 6046 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 4000 5950 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4000 6125 50  0001 C CNN
 	1    4000 6125
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW4
@@ -830,7 +819,7 @@ F 1 "1N4148" V 4505 6046 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 4550 5950 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4550 6125 50  0001 C CNN
 	1    4550 6125
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Diode:1N4148 D6
@@ -841,7 +830,7 @@ F 1 "1N4148" V 5605 6046 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 5650 5950 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5650 6125 50  0001 C CNN
 	1    5650 6125
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW7
@@ -863,7 +852,7 @@ F 1 "1N4148" V 6155 6046 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 6200 5950 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6200 6125 50  0001 C CNN
 	1    6200 6125
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW8
@@ -885,7 +874,7 @@ F 1 "1N4148" V 6705 6046 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 6750 5950 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6750 6125 50  0001 C CNN
 	1    6750 6125
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW9
@@ -907,7 +896,7 @@ F 1 "1N4148" V 7255 6046 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 7300 5950 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7300 6125 50  0001 C CNN
 	1    7300 6125
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW10
@@ -929,7 +918,7 @@ F 1 "1N4148" V 7805 6046 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 7850 5950 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7850 6125 50  0001 C CNN
 	1    7850 6125
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW11
@@ -951,7 +940,7 @@ F 1 "1N4148" V 8355 6046 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 8400 5950 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8400 6125 50  0001 C CNN
 	1    8400 6125
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW12
@@ -973,7 +962,7 @@ F 1 "1N4148" V 8905 6046 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 8950 5950 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8950 6125 50  0001 C CNN
 	1    8950 6125
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW13
@@ -995,7 +984,7 @@ F 1 "1N4148" V 9455 6046 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 9500 5950 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9500 6125 50  0001 C CNN
 	1    9500 6125
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW14
@@ -1039,7 +1028,7 @@ F 1 "1N4148" V 10555 6046 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 10600 5950 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10600 6125 50  0001 C CNN
 	1    10600 6125
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW16
@@ -1061,7 +1050,7 @@ F 1 "1N4148" V 2855 6671 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 2900 6575 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2900 6750 50  0001 C CNN
 	1    2900 6750
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW17
@@ -1083,7 +1072,7 @@ F 1 "1N4148" V 3405 6671 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 3450 6575 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3450 6750 50  0001 C CNN
 	1    3450 6750
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW18
@@ -1105,7 +1094,7 @@ F 1 "1N4148" V 3955 6671 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 4000 6575 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4000 6750 50  0001 C CNN
 	1    4000 6750
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW19
@@ -1127,7 +1116,7 @@ F 1 "1N4148" V 4505 6671 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 4550 6575 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4550 6750 50  0001 C CNN
 	1    4550 6750
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW20
@@ -1149,7 +1138,7 @@ F 1 "1N4148" V 5055 6671 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 5100 6575 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5100 6750 50  0001 C CNN
 	1    5100 6750
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW21
@@ -1171,7 +1160,7 @@ F 1 "1N4148" V 5605 6671 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 5650 6575 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5650 6750 50  0001 C CNN
 	1    5650 6750
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW22
@@ -1193,7 +1182,7 @@ F 1 "1N4148" V 6155 6671 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 6200 6575 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6200 6750 50  0001 C CNN
 	1    6200 6750
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW23
@@ -1215,7 +1204,7 @@ F 1 "1N4148" V 6705 6671 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 6750 6575 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6750 6750 50  0001 C CNN
 	1    6750 6750
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW24
@@ -1237,7 +1226,7 @@ F 1 "1N4148" V 7255 6671 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 7300 6575 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7300 6750 50  0001 C CNN
 	1    7300 6750
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW25
@@ -1259,7 +1248,7 @@ F 1 "1N4148" V 7805 6671 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 7850 6575 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7850 6750 50  0001 C CNN
 	1    7850 6750
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW26
@@ -1281,7 +1270,7 @@ F 1 "1N4148" V 8355 6671 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 8400 6575 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8400 6750 50  0001 C CNN
 	1    8400 6750
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW27
@@ -1303,7 +1292,7 @@ F 1 "1N4148" V 8905 6671 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 8950 6575 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8950 6750 50  0001 C CNN
 	1    8950 6750
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW28
@@ -1325,7 +1314,7 @@ F 1 "1N4148" V 9455 6671 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 9500 6575 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9500 6750 50  0001 C CNN
 	1    9500 6750
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW29
@@ -1347,7 +1336,7 @@ F 1 "1N4148" V 10005 6671 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 10050 6575 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10050 6750 50  0001 C CNN
 	1    10050 6750
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW30
@@ -1369,7 +1358,7 @@ F 1 "1N4148" V 10555 6671 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 10600 6575 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10600 6750 50  0001 C CNN
 	1    10600 6750
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW31
@@ -1391,7 +1380,7 @@ F 1 "1N4148" V 2855 7296 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 2900 7200 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2900 7375 50  0001 C CNN
 	1    2900 7375
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW32
@@ -1413,7 +1402,7 @@ F 1 "1N4148" V 3405 7296 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 3450 7200 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3450 7375 50  0001 C CNN
 	1    3450 7375
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW33
@@ -1435,7 +1424,7 @@ F 1 "1N4148" V 3955 7296 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 4000 7200 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4000 7375 50  0001 C CNN
 	1    4000 7375
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW34
@@ -1457,7 +1446,7 @@ F 1 "1N4148" V 4505 7296 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 4550 7200 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4550 7375 50  0001 C CNN
 	1    4550 7375
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW35
@@ -1479,7 +1468,7 @@ F 1 "1N4148" V 5055 7296 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 5100 7200 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5100 7375 50  0001 C CNN
 	1    5100 7375
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW36
@@ -1501,7 +1490,7 @@ F 1 "1N4148" V 5605 7296 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 5650 7200 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5650 7375 50  0001 C CNN
 	1    5650 7375
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW37
@@ -1523,7 +1512,7 @@ F 1 "1N4148" V 6155 7296 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 6200 7200 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6200 7375 50  0001 C CNN
 	1    6200 7375
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW38
@@ -1545,7 +1534,7 @@ F 1 "1N4148" V 6705 7296 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 6750 7200 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6750 7375 50  0001 C CNN
 	1    6750 7375
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW39
@@ -1567,7 +1556,7 @@ F 1 "1N4148" V 7255 7296 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 7300 7200 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7300 7375 50  0001 C CNN
 	1    7300 7375
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW40
@@ -1589,7 +1578,7 @@ F 1 "1N4148" V 7805 7296 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 7850 7200 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7850 7375 50  0001 C CNN
 	1    7850 7375
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW41
@@ -1611,7 +1600,7 @@ F 1 "1N4148" V 8355 7296 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 8400 7200 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8400 7375 50  0001 C CNN
 	1    8400 7375
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW42
@@ -1633,7 +1622,7 @@ F 1 "1N4148" V 8905 7296 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 8950 7200 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8950 7375 50  0001 C CNN
 	1    8950 7375
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW43
@@ -1655,7 +1644,7 @@ F 1 "1N4148" V 9455 7296 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 9500 7200 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9500 7375 50  0001 C CNN
 	1    9500 7375
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW44
@@ -1677,7 +1666,7 @@ F 1 "1N4148" V 10005 7296 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 10050 7200 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10050 7375 50  0001 C CNN
 	1    10050 7375
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW45
@@ -1699,7 +1688,7 @@ F 1 "1N4148" V 10555 7296 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 10600 7200 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10600 7375 50  0001 C CNN
 	1    10600 7375
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW46
@@ -1721,7 +1710,7 @@ F 1 "1N4148" V 2855 7921 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 2900 7825 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2900 8000 50  0001 C CNN
 	1    2900 8000
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW47
@@ -1743,7 +1732,7 @@ F 1 "1N4148" V 3405 7921 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 3450 7825 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3450 8000 50  0001 C CNN
 	1    3450 8000
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW48
@@ -1765,7 +1754,7 @@ F 1 "1N4148" V 3955 7921 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 4000 7825 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4000 8000 50  0001 C CNN
 	1    4000 8000
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW49
@@ -1787,7 +1776,7 @@ F 1 "1N4148" V 4505 7921 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 4550 7825 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4550 8000 50  0001 C CNN
 	1    4550 8000
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW50
@@ -1809,7 +1798,7 @@ F 1 "1N4148" V 5055 7921 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 5100 7825 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5100 8000 50  0001 C CNN
 	1    5100 8000
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW51
@@ -1831,7 +1820,7 @@ F 1 "1N4148" V 5605 7921 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 5650 7825 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5650 8000 50  0001 C CNN
 	1    5650 8000
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW52
@@ -1853,7 +1842,7 @@ F 1 "1N4148" V 6155 7921 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 6200 7825 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6200 8000 50  0001 C CNN
 	1    6200 8000
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW53
@@ -1875,7 +1864,7 @@ F 1 "1N4148" V 6705 7921 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 6750 7825 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6750 8000 50  0001 C CNN
 	1    6750 8000
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW54
@@ -1897,7 +1886,7 @@ F 1 "1N4148" V 7255 7921 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 7300 7825 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7300 8000 50  0001 C CNN
 	1    7300 8000
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW55
@@ -1919,7 +1908,7 @@ F 1 "1N4148" V 7805 7921 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 7850 7825 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7850 8000 50  0001 C CNN
 	1    7850 8000
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW56
@@ -1941,7 +1930,7 @@ F 1 "1N4148" V 8355 7921 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 8400 7825 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8400 8000 50  0001 C CNN
 	1    8400 8000
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW57
@@ -1963,7 +1952,7 @@ F 1 "1N4148" V 8905 7921 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 8950 7825 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8950 8000 50  0001 C CNN
 	1    8950 8000
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW58
@@ -1985,7 +1974,7 @@ F 1 "1N4148" V 9455 7921 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 9500 7825 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9500 8000 50  0001 C CNN
 	1    9500 8000
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW59
@@ -2007,7 +1996,7 @@ F 1 "1N4148" V 10005 7921 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 10050 7825 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10050 8000 50  0001 C CNN
 	1    10050 8000
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW60
@@ -2029,7 +2018,7 @@ F 1 "1N4148" V 10555 7921 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 10600 7825 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10600 8000 50  0001 C CNN
 	1    10600 8000
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW61
@@ -2051,7 +2040,7 @@ F 1 "1N4148" V 2855 8546 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 2900 8450 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2900 8625 50  0001 C CNN
 	1    2900 8625
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW62
@@ -2073,7 +2062,7 @@ F 1 "1N4148" V 3405 8546 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 3450 8450 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3450 8625 50  0001 C CNN
 	1    3450 8625
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW63
@@ -2095,7 +2084,7 @@ F 1 "1N4148" V 3955 8546 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 4000 8450 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4000 8625 50  0001 C CNN
 	1    4000 8625
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW64
@@ -2117,7 +2106,7 @@ F 1 "1N4148" V 4505 8546 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 4550 8450 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4550 8625 50  0001 C CNN
 	1    4550 8625
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW65
@@ -2139,7 +2128,7 @@ F 1 "1N4148" V 5055 8546 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 5100 8450 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5100 8625 50  0001 C CNN
 	1    5100 8625
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW66
@@ -2161,7 +2150,7 @@ F 1 "1N4148" V 5605 8546 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 5650 8450 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5650 8625 50  0001 C CNN
 	1    5650 8625
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW67
@@ -2183,7 +2172,7 @@ F 1 "1N4148" V 6155 8546 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 6200 8450 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6200 8625 50  0001 C CNN
 	1    6200 8625
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW68
@@ -2205,7 +2194,7 @@ F 1 "1N4148" V 6705 8546 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 6750 8450 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6750 8625 50  0001 C CNN
 	1    6750 8625
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW69
@@ -2227,7 +2216,7 @@ F 1 "1N4148" V 7255 8546 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 7300 8450 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7300 8625 50  0001 C CNN
 	1    7300 8625
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW70
@@ -2249,7 +2238,7 @@ F 1 "1N4148" V 7805 8546 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 7850 8450 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7850 8625 50  0001 C CNN
 	1    7850 8625
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW71
@@ -2271,7 +2260,7 @@ F 1 "1N4148" V 8355 8546 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 8400 8450 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8400 8625 50  0001 C CNN
 	1    8400 8625
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW72
@@ -2293,7 +2282,7 @@ F 1 "1N4148" V 8905 8546 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 8950 8450 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8950 8625 50  0001 C CNN
 	1    8950 8625
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW73
@@ -2315,7 +2304,7 @@ F 1 "1N4148" V 9455 8546 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 9500 8450 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9500 8625 50  0001 C CNN
 	1    9500 8625
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW74
@@ -2337,7 +2326,7 @@ F 1 "1N4148" V 10005 8546 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 10050 8450 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10050 8625 50  0001 C CNN
 	1    10050 8625
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW75
@@ -2359,7 +2348,7 @@ F 1 "1N4148" V 10555 8546 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 10600 8450 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10600 8625 50  0001 C CNN
 	1    10600 8625
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW76
@@ -5248,7 +5237,7 @@ F 1 "1N4148" V 5055 6046 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 5100 5950 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5100 6125 50  0001 C CNN
 	1    5100 6125
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW5
@@ -6321,5 +6310,16 @@ F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4275 975 50  0
 F 3 "~" H 4275 975 50  0001 C CNN
 	1    4275 975 
 	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D1
+U 1 1 5D7464A5
+P 2900 6125
+F 0 "D1" V 2946 6046 50  0000 R CNN
+F 1 "1N4148" V 2855 6046 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 2900 5950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2900 6125 50  0001 C CNN
+	1    2900 6125
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
