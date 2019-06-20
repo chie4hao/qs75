@@ -1,4 +1,4 @@
-update=2019年06月16日 星期日 14时19分25秒
+update=2019年06月17日 星期一 01时59分36秒
 version=1
 last_client=kicad
 [general]
