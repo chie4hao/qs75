@@ -1,8 +1,8 @@
 # qs75
 A 15x5 full-grid othorlinear keyboard
 
-![Imgur](https://i.imgur.com/DBjkfE0.png)
-![Imgur](https://i.imgur.com/lqaDMQy.png)
+![Imgur](https://i.imgur.com/hp7Cqma.png)
+![Imgur](https://i.imgur.com/958IE22.png)
 ![Imgur](https://i.imgur.com/bfTwtas.jpg)
 ![Imgur](https://i.imgur.com/OWWBPfD.jpg)
 
